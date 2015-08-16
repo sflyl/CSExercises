@@ -10,7 +10,10 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            string A = " Venkat";
+            Console.WriteLine("Good Morning" + A);
+            Console.ReadLine();
+
         }
     }
 }
