@@ -10,7 +10,10 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            decimal G;            
+            decimal F = 1.8G + 32;
+            Console.WriteLine (F);
+            Console.ReadLine ();
         }
     }
 }

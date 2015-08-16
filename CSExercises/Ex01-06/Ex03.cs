@@ -10,7 +10,11 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            double C = 22;
+            C = Math.Pow(22, 2);
+            Console.WriteLine(C);
+            Console.ReadLine();
+
         }
     }
 }
