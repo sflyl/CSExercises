@@ -10,10 +10,11 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            double C = 22;
-            C = Math.Pow(22, 2);
-            Console.WriteLine(C);
-            Console.ReadLine();
+            Console.Write("Please enter number: ");
+            String s = Console.ReadLine();
+            double i = Convert.ToDouble(s);
+            double u = Math.Sqrt(i);
+            Console.WriteLine(u);
 
         }
     }

@@ -10,11 +10,14 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            double S = 2000;
-            double T = 0.1 * S;
-            double V = 0.03 * S;
-            Console.WriteLine("$" + S + T + V);
-            Console.ReadLine();
+            Console.Write("Please type in your salary: ");
+            string s = (Console.ReadLine());
+            double t = Convert.ToDouble (s);
+            double h = 0.1*t;
+            double p = 0.03*t;
+            double b = (t + h + p);
+            char c = '$';
+            Console.WriteLine("Your salary is " + c + b);
 
 
         }

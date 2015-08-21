@@ -10,12 +10,13 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            int D;
-            double E;
-            E = Convert.ToDouble(D);
-            E = Math.Pow(2,2);
-            Console.WriteLine(E);
-            Console.ReadLine();
+
+            Console.Write("Please enter a number: ");
+            string s = Console.ReadLine();
+            int i = Convert.ToInt32(s);
+            double r = Math.Pow(i,2);
+            Console.WriteLine(r);
+
         }
     }
 }
